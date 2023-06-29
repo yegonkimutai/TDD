@@ -1,6 +1,3 @@
-# Solver is a class that provides various solving functionalities.
-# It includes methods for calculating factorials, playing the FizzBuzz game,
-# and reversing strings
 class Solver
   def factorial(num)
     if num.negative?
