@@ -16,12 +16,12 @@ class Solver
     end
   end
 
-  def fizz_buzz(number)
-    return 'FizzBuzz' if (number % 3).zero? && (number % 5).zero?
-    return 'Fizz' if (number % 3).zero?
-    return 'Buzz' if (number % 5).zero?
+  def fizz_buzz(num)
+    return 'FizzBuzz' if (num % 3).zero? && (num % 5).zero?
+    return 'Fizz' if (num % 3).zero?
+    return 'Buzz' if (num % 5).zero?
 
-    number
+    num
   end
 
   def reverse(word)
