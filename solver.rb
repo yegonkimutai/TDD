@@ -25,6 +25,6 @@ class Solver
   end
 
   def reverse(word)
-    word.split('').reverse.join('')
+    word.reverse
   end
 end
