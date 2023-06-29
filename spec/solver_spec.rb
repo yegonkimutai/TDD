@@ -38,7 +38,7 @@ describe Solver do
     end
 
     it 'return number on numbers not divisible by 3 or 5' do
-      expect(solver.fizz_buzz(11)).to eq(11)
+      expect(solver.fizz_buzz(11)).to eq('11')
     end
   end
 

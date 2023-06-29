@@ -16,7 +16,7 @@ class Solver
     return 'Fizz' if (num % 3).zero?
     return 'Buzz' if (num % 5).zero?
 
-    num
+    num.to_s
   end
 
   def reverse(word)
