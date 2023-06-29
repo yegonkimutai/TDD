@@ -6,4 +6,8 @@ class Solver
 
         number
     end
+
+    def reverse (word) 
+        word.split('').reverse.join('')
+    end
 end
