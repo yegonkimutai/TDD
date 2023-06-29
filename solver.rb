@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # Solver is a class that provides various solving functionalities.
 # It includes methods for calculating factorials, playing the FizzBuzz game,
 # and reversing strings
