@@ -21,6 +21,10 @@ describe Solver do
       expect { solver.factorial(-5) }.to raise_error(ArgumentError)
     end
   end
+end
+
+describe Solver do
+  let(:solver) { Solver.new }
 
   describe 'FizzBuzz challenge' do
     it 'return "Fizz" on numbers divisible by 3' do
