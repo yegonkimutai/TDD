@@ -20,4 +20,10 @@ describe Solver do
             expect(solver.fizz_buzz(11)).to eq(11)
         end
     end
+
+    describe 'reverse challenge' do
+        it 'should return reverse of word provided' do
+            expect(solver.reverse('hello')).to eq('olleh')
+        end
+    end
 end
