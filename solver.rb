@@ -4,6 +4,17 @@
 # It includes methods for calculating factorials, playing the FizzBuzz game,
 # and reversing strings
 class Solver
+  def factorial(num)
+    if num.negative?
+      raise ArgumentError, 'Negative not allow'
+    elsif num.zero?
+      1
+    else
+      results = 1
+      (1..num).each { |a| results *= a }
+      results
+    end
+  end
 
   def fizz_buzz(number)
     return 'FizzBuzz' if (number % 3).zero? && (number % 5).zero?
